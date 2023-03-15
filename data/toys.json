@@ -1,0 +1,144 @@
+[
+  {
+    "_id": "rvGqQ",
+    "name": "Playmobile House",
+    "price": "130",
+    "inStock": "",
+    "labels": [
+      "Baby",
+      "Doll"
+    ],
+    "createdAt": 1678897762217,
+    "imageUrl": "../../public/logo.png"
+  },
+  {
+    "_id": "CnvY4",
+    "name": "Baby doll",
+    "price": 80,
+    "inStock": true,
+    "labels": [
+      "Baby",
+      "Doll"
+    ],
+    "createdAt": 1678810600459,
+    "imageUrl": "../../public/logo.png"
+  },
+  {
+    "name": "Magnets",
+    "price": 160,
+    "inStock": true,
+    "labels": [
+      "Box game",
+      "Baby"
+    ],
+    "createdAt": 1678746430701,
+    "_id": "sr6Ww",
+    "imageUrl": "../../public/logo.png"
+  },
+  {
+    "_id": "TsTBo7",
+    "price": 125,
+    "name": "Car Porsche",
+    "inStock": false,
+    "labels": [
+      "On wheels",
+      "Battery Powered"
+    ],
+    "createdAt": 1678830000000,
+    "imageUrl": "../../public/car.jpg"
+  },
+  {
+    "_id": "UuFos0",
+    "name": "Minnie Mouse",
+    "price": 75,
+    "inStock": false,
+    "labels": [
+      "Baby",
+      "Doll"
+    ],
+    "createdAt": 1678930000000,
+    "imageUrl": "../../public/minnie-mouse.webp"
+  },
+  {
+    "_id": "ZG3mu1",
+    "name": "Barbie head to style",
+    "price": 26,
+    "labels": [
+      "Art",
+      "Doll"
+    ],
+    "createdAt": 1679030000000,
+    "inStock": true,
+    "imageUrl": "../../public/barbie-head.jpg"
+  },
+  {
+    "_id": "MbGPrU",
+    "name": "Horse Puzzle",
+    "price": 40,
+    "labels": [
+      "Box game",
+      "Puzzle"
+    ],
+    "createdAt": 1679130000000,
+    "inStock": true,
+    "imageUrl": "../../public/horse-puzzle.jpg"
+  },
+  {
+    "_id": "UPaE7E",
+    "name": "Football Ball",
+    "price": 50,
+    "labels": [
+      "Outdoor"
+    ],
+    "createdAt": 1679230000000,
+    "inStock": true,
+    "imageUrl": "../../public/football.jpg"
+  },
+  {
+    "_id": "KlzMt9",
+    "name": "Stick paint",
+    "price": 25,
+    "labels": [
+      "Art"
+    ],
+    "createdAt": 1679330000000,
+    "inStock": true,
+    "imageUrl": "../../public/stick-paints.jpg"
+  },
+  {
+    "_id": "ulRV0x",
+    "name": "Wax Crayons",
+    "price": 45,
+    "labels": [
+      "Art",
+      "Baby"
+    ],
+    "createdAt": 1679430000000,
+    "inStock": true,
+    "imageUrl": "../../public/wax-crayons.webp"
+  },
+  {
+    "_id": "WSR1Wi",
+    "name": "Car circuit",
+    "price": 95,
+    "labels": [
+      "Box game",
+      "Battery Powered",
+      "On wheels"
+    ],
+    "createdAt": 1679530000000,
+    "inStock": true,
+    "imageUrl": "../../public/car-circuit.webp"
+  },
+  {
+    "_id": "NpRl1P",
+    "name": "Kapla blocks",
+    "price": 100,
+    "labels": [
+      "Box game"
+    ],
+    "createdAt": 1679630000000,
+    "inStock": true,
+    "imageUrl": "../../public/kapla.jpg"
+  }
+]
