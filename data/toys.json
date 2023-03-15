@@ -9,7 +9,7 @@
       "Doll"
     ],
     "createdAt": 1678897762217,
-    "imageUrl": "../../public/logo.png"
+    "imageUrl": "/logo.png"
   },
   {
     "_id": "CnvY4",
@@ -21,7 +21,7 @@
       "Doll"
     ],
     "createdAt": 1678810600459,
-    "imageUrl": "../../public/logo.png"
+    "imageUrl": "/logo.png"
   },
   {
     "name": "Magnets",
@@ -33,7 +33,7 @@
     ],
     "createdAt": 1678746430701,
     "_id": "sr6Ww",
-    "imageUrl": "../../public/logo.png"
+    "imageUrl": "/logo.png"
   },
   {
     "_id": "TsTBo7",
@@ -45,7 +45,7 @@
       "Battery Powered"
     ],
     "createdAt": 1678830000000,
-    "imageUrl": "../../public/car.jpg"
+    "imageUrl": "/car.jpg"
   },
   {
     "_id": "UuFos0",
@@ -57,7 +57,7 @@
       "Doll"
     ],
     "createdAt": 1678930000000,
-    "imageUrl": "../../public/minnie-mouse.webp"
+    "imageUrl": "/minnie-mouse.webp"
   },
   {
     "_id": "ZG3mu1",
@@ -69,7 +69,7 @@
     ],
     "createdAt": 1679030000000,
     "inStock": true,
-    "imageUrl": "../../public/barbie-head.jpg"
+    "imageUrl": "/barbie-head.jpg"
   },
   {
     "_id": "MbGPrU",
@@ -81,7 +81,7 @@
     ],
     "createdAt": 1679130000000,
     "inStock": true,
-    "imageUrl": "../../public/horse-puzzle.jpg"
+    "imageUrl": "/horse-puzzle.jpg"
   },
   {
     "_id": "UPaE7E",
@@ -92,7 +92,7 @@
     ],
     "createdAt": 1679230000000,
     "inStock": true,
-    "imageUrl": "../../public/football.jpg"
+    "imageUrl": "/football.jpg"
   },
   {
     "_id": "KlzMt9",
@@ -103,7 +103,7 @@
     ],
     "createdAt": 1679330000000,
     "inStock": true,
-    "imageUrl": "../../public/stick-paints.jpg"
+    "imageUrl": "/stick-paints.jpg"
   },
   {
     "_id": "ulRV0x",
@@ -115,7 +115,7 @@
     ],
     "createdAt": 1679430000000,
     "inStock": true,
-    "imageUrl": "../../public/wax-crayons.webp"
+    "imageUrl": "/wax-crayons.webp"
   },
   {
     "_id": "WSR1Wi",
@@ -128,7 +128,7 @@
     ],
     "createdAt": 1679530000000,
     "inStock": true,
-    "imageUrl": "../../public/car-circuit.webp"
+    "imageUrl": "/car-circuit.webp"
   },
   {
     "_id": "NpRl1P",
@@ -139,6 +139,6 @@
     ],
     "createdAt": 1679630000000,
     "inStock": true,
-    "imageUrl": "../../public/kapla.jpg"
+    "imageUrl": "/kapla.jpg"
   }
 ]
