@@ -1,108 +1,54 @@
 const express = require('express')
 const cors = require('cors')
-
-// const cookieParser = require('cookie-parser')
-// const bodyParser = require('body-parser')
+const cookieParser = require('cookie-parser')
+const bodyParser = require('body-parser')
+const path = require('path')
 
 const app = express()
-const toyService = require('./services/toy.service')
+const http = require('http').createServer(app)
 
-const port = process.env.PORT || 3030
-const corsOptions = {
-    origin: [
-        'http://localhost:5173',
-        'http://127.0.0.1:5173',
-    ],
-    credentials: true
-}
+// const toyService = require('./services/toy.service')
 
-app.use(cors(corsOptions))
+// Express App Config
+app.use(cookieParser())
 app.use(express.json())
 app.use(express.static('public'))
-// app.use(cookieParser())
 // app.use(bodyParser.json())
 
-app.listen(port, () => {
-    console.log(`Toy App listening on : http://localhost:${port}`)
-})
-
-app.get('/api/toy', (req, res) => {
-    const filterBy = {
-        name: req.query.filterBy.name,
-        inStock: req.query.filterBy.inStock,
-        order: req.query.sortBy.order
+if (process.env.NODE_ENV === 'production') {
+    // Express serve static files on production environment
+    app.use(express.static(path.resolve(__dirname, 'public')))
+} else {
+    // Configuring CORS
+    const corsOptions = {
+        // Make sure origin contains the url your frontend is running on
+        origin: ['http://127.0.0.1:5173', 'http://localhost:5173','http://127.0.0.1:3000', 'http://localhost:3000'],
+        credentials: true
     }
-    if (!req.query.filterBy.labels) filterBy.labels = []
-    else filterBy.labels = req.query.filterBy.labels
+    app.use(cors(corsOptions))
+}
 
-    // console.log('filterBy', filterBy)
+const authRoutes = require('./api/auth/auth.routes')
+const userRoutes = require('./api/user/user.routes')
+const toyRoutes = require('./api/toy/toy.routes.js')
 
-    toyService
-        .query(filterBy)
-        .then(toys => {
-            res.status(201).send(toys)
-        })
-        .catch(err => {
-            console.log('Error in backend', err)
-            res.status(401).send('Failed to get toys')
-        })
+
+// routes
+app.use('/api/auth', authRoutes)
+app.use('/api/user', userRoutes)
+app.use('/api/toy', toyRoutes)
+
+// Make every server-side-route to match the index.html
+// so when requesting http://localhost:3030/index.html/toy/123 it will still respond with
+// our SPA (single page app) (the index.html file) and allow vue-router to take it from there
+app.get('/**', (req, res) => {
+    res.sendFile(path.join(__dirname, 'public', 'index.html'))
 })
 
-app.get('/api/toy/:toyId', (req, res) => {
-    const { toyId } = req.params
+const logger = require('./services/logger.service.js')
+logger.info('Hi')
 
-    toyService
-        .getById(toyId)
-        .then(toy => {
-            res.status(201).send(toy)
-        })
-        .catch(err => {
-            console.log('Backend had error: ', err)
-            res.status(401).send(`Failed to get toy with id: ${toyId}`)
-        })
-
-})
-
-app.delete('/api/toy/:toyId', (req, res) => {
-    const { toyId } = req.params
-    toyService
-        .remove(toyId)
-        .then(() => {
-            res.send('OK, deleted')
-        })
-        .catch((err) => {
-            console.log('Error:', err)
-            res.status(400).send('Cannot remove toy')
-        })
-})
-
-app.put('/api/toy', (req, res) => {
-    const { _id, name, inStock, labels, createdAt, imageUrl } = req.body
-    const toy = { _id, name, inStock, labels, createdAt, imageUrl }
-
-    toyService.save(toy)
-        .then(savedToy => {
-            res.status(201).send(savedToy)
-        })
-        .catch(err => {
-            console.log('Backend Error:', err)
-            res.status(401).send('Cannot update toy')
-        })
-})
-
-app.post('/api/toy', (req, res) => {
-    // console.log(req.body)
-    const { _id, name, price, inStock, labels, createdAt, imageUrl } = req.body
-    const toy = { _id, name, price, inStock, labels, createdAt, imageUrl }
-    // if (toy.inStock==='') toy.inStock = false
-    console.log(toy)
-    toyService
-        .save(toy)
-        .then(savedToy => {
-            res.status(201).send(savedToy)
-        })
-        .catch(err => {
-            console.log('Backend Error:', err)
-            res.status(401).send('Cannot create toy')
-        })
+const port = process.env.PORT || 3030
+http.listen(port, () => {
+    logger.info('Server is running on port: ' + port)
 })

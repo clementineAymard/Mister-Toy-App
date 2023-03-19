@@ -1,0 +1,419 @@
+16.3.2023, 19:32:18 - INFO - Hi 
+16.3.2023, 19:32:18 - INFO - Server is running on port: 3030 
+16.3.2023, 19:32:35 - INFO - Req was made 
+16.3.2023, 19:32:35 - DEBUG - Getting Toys | {"name":"","inStock":"all","order":"-1","labels":[]} 
+16.3.2023, 19:33:29 - INFO - Hi 
+16.3.2023, 19:33:29 - INFO - Server is running on port: 3030 
+16.3.2023, 19:33:33 - INFO - Req was made 
+16.3.2023, 19:33:33 - DEBUG - Getting Toys | {"name":"","inStock":"all","order":"-1","labels":[]} 
+16.3.2023, 19:34:38 - INFO - Req was made 
+16.3.2023, 19:34:38 - ERROR - Failed to get toys | TypeError: Cannot read properties of undefined (reading 'name') 
+16.3.2023, 19:35:23 - INFO - Hi 
+16.3.2023, 19:35:23 - INFO - Server is running on port: 3030 
+16.3.2023, 19:35:26 - ERROR - Failed to get toys | TypeError: Cannot read properties of undefined (reading 'name') 
+16.3.2023, 19:35:26 - INFO - Req was made 
+16.3.2023, 19:35:58 - INFO - Hi 
+16.3.2023, 19:35:58 - INFO - Server is running on port: 3030 
+16.3.2023, 19:45:59 - INFO - Req was made 
+16.3.2023, 19:45:59 - DEBUG - Getting Toys | {"name":"","inStock":"all","order":"-1","labels":[]} 
+16.3.2023, 19:47:48 - INFO - Hi 
+16.3.2023, 19:47:49 - INFO - Server is running on port: 3030 
+16.3.2023, 19:47:54 - INFO - Req was made 
+16.3.2023, 19:47:54 - DEBUG - Getting Toys | {"name":"","inStock":"all","order":"-1","labels":[]} 
+16.3.2023, 19:49:25 - DEBUG - Getting Toys | {"name":"","inStock":"all","order":"-1","labels":[]} 
+16.3.2023, 19:49:25 - INFO - Req was made 
+16.3.2023, 19:49:30 - INFO - Req was made 
+16.3.2023, 19:49:30 - DEBUG - Getting Toys | {"name":"","inStock":"all","order":"-1","labels":[]} 
+16.3.2023, 19:49:46 - INFO - Req was made 
+16.3.2023, 19:49:46 - ERROR - Failed to get toys | TypeError: Cannot read properties of undefined (reading 'name') 
+16.3.2023, 19:50:35 - INFO - Hi 
+16.3.2023, 19:50:35 - INFO - Server is running on port: 3030 
+16.3.2023, 19:50:41 - INFO - Req was made 
+16.3.2023, 19:50:41 - DEBUG - Getting Toys | {"name":"","inStock":"all","order":"-1","labels":[]} 
+16.3.2023, 20:01:52 - INFO - Hi 
+16.3.2023, 20:01:52 - INFO - Server is running on port: 3030 
+16.3.2023, 20:01:57 - INFO - Req was made 
+16.3.2023, 20:01:57 - ERROR - Failed to get toys | TypeError: Cannot read properties of undefined (reading 'name') 
+16.3.2023, 20:03:13 - INFO - Hi 
+16.3.2023, 20:03:13 - INFO - Server is running on port: 3030 
+16.3.2023, 20:03:15 - INFO - Req was made 
+16.3.2023, 20:03:15 - ERROR - Failed to get toys | TypeError: Cannot read properties of undefined (reading 'inStock') 
+16.3.2023, 20:03:58 - INFO - Hi 
+16.3.2023, 20:03:58 - INFO - Server is running on port: 3030 
+16.3.2023, 20:04:04 - INFO - Req was made 
+16.3.2023, 20:04:51 - INFO - Hi 
+16.3.2023, 20:04:51 - INFO - Server is running on port: 3030 
+16.3.2023, 20:05:30 - INFO - Hi 
+16.3.2023, 20:05:30 - INFO - Server is running on port: 3030 
+16.3.2023, 20:07:29 - INFO - Hi 
+16.3.2023, 20:07:29 - INFO - Server is running on port: 3030 
+16.3.2023, 20:07:52 - INFO - Hi 
+16.3.2023, 20:07:52 - INFO - Server is running on port: 3030 
+16.3.2023, 20:08:08 - INFO - Hi 
+16.3.2023, 20:08:08 - INFO - Server is running on port: 3030 
+16.3.2023, 20:08:27 - INFO - Hi 
+16.3.2023, 20:08:27 - INFO - Server is running on port: 3030 
+16.3.2023, 20:08:35 - INFO - Hi 
+16.3.2023, 20:08:35 - INFO - Server is running on port: 3030 
+16.3.2023, 20:08:40 - INFO - Req was made 
+16.3.2023, 20:12:05 - ERROR - while finding toy CnvY4 | Error: Argument passed in must be a single String of 12 bytes or a string of 24 hex characters 
+16.3.2023, 20:12:05 - ERROR - Failed to get toy | Error: Argument passed in must be a single String of 12 bytes or a string of 24 hex characters 
+16.3.2023, 20:21:43 - INFO - Hi 
+16.3.2023, 20:21:43 - INFO - Server is running on port: 3030 
+16.3.2023, 20:21:51 - INFO - Req was made 
+16.3.2023, 20:21:55 - ERROR - Failed to get toy | Error: Argument passed in must be a single String of 12 bytes or a string of 24 hex characters 
+16.3.2023, 20:21:55 - ERROR - while finding toy TsTBo7 | Error: Argument passed in must be a single String of 12 bytes or a string of 24 hex characters 
+16.3.2023, 20:22:43 - INFO - Hi 
+16.3.2023, 20:22:43 - INFO - Server is running on port: 3030 
+16.3.2023, 20:22:49 - INFO - Req was made 
+16.3.2023, 20:22:49 - ERROR - Failed to get toy | Error: Argument passed in must be a single String of 12 bytes or a string of 24 hex characters 
+16.3.2023, 20:22:49 - ERROR - while finding toy TsTBo7 | Error: Argument passed in must be a single String of 12 bytes or a string of 24 hex characters 
+16.3.2023, 20:28:57 - INFO - Hi 
+16.3.2023, 20:28:57 - INFO - Server is running on port: 3030 
+16.3.2023, 20:30:05 - INFO - Hi 
+16.3.2023, 20:30:05 - INFO - Server is running on port: 3030 
+16.3.2023, 20:39:43 - INFO - Req was made 
+16.3.2023, 20:39:47 - INFO - Req was made 
+16.3.2023, 20:40:27 - INFO - Hi 
+16.3.2023, 20:40:27 - INFO - Server is running on port: 3030 
+16.3.2023, 20:40:31 - INFO - Req was made 
+16.3.2023, 20:40:38 - INFO - Req was made 
+16.3.2023, 20:40:43 - INFO - Req was made 
+16.3.2023, 20:43:42 - INFO - Req was made 
+16.3.2023, 20:45:01 - INFO - Hi 
+16.3.2023, 20:45:01 - INFO - Server is running on port: 3030 
+16.3.2023, 20:45:06 - INFO - Server is running on port: 3030 
+16.3.2023, 20:45:06 - INFO - Hi 
+16.3.2023, 20:45:08 - INFO - Req was made 
+16.3.2023, 21:36:39 - INFO - Req was made 
+16.3.2023, 21:39:35 - INFO - Req was made 
+16.3.2023, 21:46:38 - INFO - Req was made 
+16.3.2023, 21:46:46 - INFO - Req was made 
+16.3.2023, 21:47:26 - INFO - Req was made 
+16.3.2023, 21:47:39 - INFO - Req was made 
+16.3.2023, 21:51:54 - INFO - Req was made 
+16.3.2023, 21:52:03 - INFO - Req was made 
+16.3.2023, 21:52:44 - INFO - Req was made 
+16.3.2023, 21:53:10 - INFO - Req was made 
+16.3.2023, 21:54:03 - INFO - Req was made 
+16.3.2023, 22:00:41 - INFO - Req was made 
+16.3.2023, 22:04:52 - INFO - Req was made 
+16.3.2023, 22:05:25 - INFO - Hi 
+16.3.2023, 22:05:25 - INFO - Server is running on port: 3030 
+16.3.2023, 22:05:32 - INFO - Req was made 
+16.3.2023, 22:05:32 - DEBUG - Getting Toys | {"name":"","inStock":"all","order":"-1","labels":[]} 
+16.3.2023, 22:06:42 - INFO - Server is running on port: 3030 
+16.3.2023, 22:06:42 - INFO - Hi 
+16.3.2023, 22:07:11 - INFO - Hi 
+16.3.2023, 22:07:11 - INFO - Server is running on port: 3030 
+16.3.2023, 22:07:14 - DEBUG - Getting Toys | {"name":"","inStock":"all","order":"-1","labels":[]} 
+16.3.2023, 22:07:14 - INFO - Req was made 
+16.3.2023, 22:07:53 - INFO - Hi 
+16.3.2023, 22:07:53 - INFO - Server is running on port: 3030 
+16.3.2023, 22:07:55 - INFO - Req was made 
+16.3.2023, 22:07:55 - DEBUG - Getting Toys | {"name":"","inStock":"all","order":"-1","labels":[]} 
+16.3.2023, 22:08:33 - INFO - Server is running on port: 3030 
+16.3.2023, 22:08:33 - INFO - Hi 
+16.3.2023, 22:08:50 - INFO - Hi 
+16.3.2023, 22:08:50 - INFO - Server is running on port: 3030 
+16.3.2023, 22:09:01 - INFO - Hi 
+16.3.2023, 22:09:01 - INFO - Server is running on port: 3030 
+16.3.2023, 22:09:03 - DEBUG - Getting Toys | {"name":"","inStock":"all","order":"-1","labels":[]} 
+16.3.2023, 22:09:03 - INFO - Req was made 
+16.3.2023, 22:09:44 - INFO - Hi 
+16.3.2023, 22:09:44 - INFO - Server is running on port: 3030 
+16.3.2023, 22:10:30 - INFO - Server is running on port: 3030 
+16.3.2023, 22:10:30 - INFO - Hi 
+16.3.2023, 22:10:32 - INFO - Req was made 
+16.3.2023, 22:10:32 - DEBUG - Getting Toys | {"name":"","inStock":"all","order":"-1","labels":[]} 
+16.3.2023, 22:10:52 - INFO - Req was made 
+16.3.2023, 22:10:52 - DEBUG - Getting Toys | {"name":"a","inStock":"all","order":"-1","labels":[]} 
+16.3.2023, 22:11:14 - INFO - Req was made 
+16.3.2023, 22:11:14 - DEBUG - Getting Toys | {"name":"a","inStock":"true","order":"-1","labels":[]} 
+16.3.2023, 22:12:23 - INFO - Hi 
+16.3.2023, 22:12:23 - INFO - Server is running on port: 3030 
+16.3.2023, 22:12:26 - DEBUG - Getting Toys | {"name":"","inStock":"all","order":"-1","labels":[]} 
+16.3.2023, 22:12:26 - INFO - Req was made 
+16.3.2023, 22:41:11 - INFO - Req was made 
+16.3.2023, 22:41:11 - DEBUG - Getting Toys | {"name":"","inStock":"all","order":"-1","labels":[]} 
+16.3.2023, 22:41:17 - INFO - Req was made 
+16.3.2023, 22:41:17 - DEBUG - Getting Toys | {"name":"","inStock":"all","order":"-1","labels":[]} 
+16.3.2023, 22:41:23 - INFO - Req was made 
+16.3.2023, 22:41:23 - DEBUG - Getting Toys | {"name":"","inStock":"all","order":"-1","labels":["On wheels"]} 
+16.3.2023, 22:41:23 - ERROR - cannot find toys | TypeError: Cannot read properties of undefined (reading 'reduce') 
+16.3.2023, 22:41:23 - ERROR - Failed to get toys | TypeError: Cannot read properties of undefined (reading 'reduce') 
+16.3.2023, 22:47:43 - INFO - Hi 
+16.3.2023, 22:47:43 - INFO - Server is running on port: 3030 
+16.3.2023, 22:49:03 - INFO - Server is running on port: 3030 
+16.3.2023, 22:49:03 - INFO - Hi 
+16.3.2023, 22:49:07 - INFO - Req was made 
+16.3.2023, 22:49:07 - DEBUG - Getting Toys | {"name":"","inStock":"all","order":"-1","labels":[]} 
+16.3.2023, 22:49:10 - INFO - Req was made 
+16.3.2023, 22:49:10 - DEBUG - Getting Toys | {"name":"","inStock":"all","order":"-1","labels":["Puzzle"]} 
+16.3.2023, 22:49:10 - ERROR - cannot find toys | TypeError: Cannot read properties of undefined (reading 'reduce') 
+16.3.2023, 22:49:10 - ERROR - Failed to get toys | TypeError: Cannot read properties of undefined (reading 'reduce') 
+16.3.2023, 22:51:37 - INFO - Hi 
+16.3.2023, 22:51:37 - INFO - Server is running on port: 3030 
+16.3.2023, 22:51:39 - DEBUG - Getting Toys | {"name":"","inStock":"all","order":"-1","labels":[]} 
+16.3.2023, 22:51:39 - INFO - Req was made 
+16.3.2023, 22:51:42 - INFO - Req was made 
+16.3.2023, 22:51:42 - DEBUG - Getting Toys | {"name":"","inStock":"all","order":"-1","labels":["On wheels"]} 
+16.3.2023, 22:51:42 - ERROR - cannot find toys | TypeError: Cannot read properties of undefined (reading 'reduce') 
+16.3.2023, 22:51:42 - ERROR - Failed to get toys | TypeError: Cannot read properties of undefined (reading 'reduce') 
+16.3.2023, 22:52:46 - INFO - Server is running on port: 3030 
+16.3.2023, 22:52:46 - INFO - Hi 
+16.3.2023, 23:02:52 - INFO - Hi 
+16.3.2023, 23:02:52 - INFO - Server is running on port: 3030 
+16.3.2023, 23:02:55 - INFO - Req was made 
+16.3.2023, 23:02:55 - DEBUG - Getting Toys | {"name":"","inStock":"all","order":"-1","labels":[]} 
+16.3.2023, 23:02:57 - INFO - Req was made 
+16.3.2023, 23:02:57 - DEBUG - Getting Toys | {"name":"","inStock":"all","order":"-1","labels":["Baby"]} 
+16.3.2023, 23:03:21 - INFO - Hi 
+16.3.2023, 23:03:21 - INFO - Server is running on port: 3030 
+16.3.2023, 23:03:22 - INFO - Req was made 
+16.3.2023, 23:03:22 - DEBUG - Getting Toys | {"name":"","inStock":"all","order":"-1","labels":[]} 
+16.3.2023, 23:03:24 - INFO - Req was made 
+16.3.2023, 23:03:24 - DEBUG - Getting Toys | {"name":"","inStock":"all","order":"-1","labels":["Box game"]} 
+16.3.2023, 23:04:09 - INFO - Hi 
+16.3.2023, 23:04:09 - INFO - Server is running on port: 3030 
+16.3.2023, 23:04:11 - DEBUG - Getting Toys | {"name":"","inStock":"all","order":"-1","labels":[]} 
+16.3.2023, 23:04:11 - INFO - Req was made 
+16.3.2023, 23:04:16 - INFO - Req was made 
+16.3.2023, 23:04:16 - DEBUG - Getting Toys | {"name":"","inStock":"all","order":"-1","labels":["On wheels"]} 
+16.3.2023, 23:04:29 - INFO - Req was made 
+16.3.2023, 23:04:29 - DEBUG - Getting Toys | {"name":"","inStock":"all","order":"-1","labels":["On wheels","Box game"]} 
+16.3.2023, 23:04:30 - INFO - Req was made 
+16.3.2023, 23:04:30 - DEBUG - Getting Toys | {"name":"","inStock":"all","order":"-1","labels":["On wheels","Box game","Art"]} 
+16.3.2023, 23:05:39 - INFO - Hi 
+16.3.2023, 23:05:39 - INFO - Server is running on port: 3030 
+16.3.2023, 23:05:40 - INFO - Req was made 
+16.3.2023, 23:05:40 - DEBUG - Getting Toys | {"name":"","inStock":"all","order":"-1","labels":[]} 
+16.3.2023, 23:05:45 - INFO - Req was made 
+16.3.2023, 23:05:45 - DEBUG - Getting Toys | {"name":"","inStock":"all","order":"-1","labels":["On wheels"]} 
+16.3.2023, 23:29:48 - DEBUG - Getting Toys | {"name":"","inStock":"all","order":"-1","labels":[]} 
+16.3.2023, 23:29:48 - INFO - Req was made 
+16.3.2023, 23:30:51 - INFO - Hi 
+16.3.2023, 23:30:51 - INFO - Server is running on port: 3030 
+16.3.2023, 23:30:54 - INFO - Req was made 
+16.3.2023, 23:30:54 - DEBUG - Getting Toys | {"name":"","inStock":"all","order":"-1","labels":[]} 
+16.3.2023, 23:31:00 - INFO - Req was made 
+16.3.2023, 23:31:00 - DEBUG - Getting Toys | {"name":"","inStock":"all","order":"-1","labels":["On wheels"]} 
+16.3.2023, 23:31:30 - INFO - Hi 
+16.3.2023, 23:31:30 - INFO - Server is running on port: 3030 
+16.3.2023, 23:31:31 - INFO - Hi 
+16.3.2023, 23:31:31 - INFO - Server is running on port: 3030 
+16.3.2023, 23:31:35 - INFO - Req was made 
+16.3.2023, 23:31:35 - DEBUG - Getting Toys | {"name":"","inStock":"all","order":"-1","labels":[]} 
+16.3.2023, 23:32:11 - INFO - Hi 
+16.3.2023, 23:32:11 - INFO - Server is running on port: 3030 
+16.3.2023, 23:32:12 - INFO - Req was made 
+16.3.2023, 23:32:12 - DEBUG - Getting Toys | {"name":"","inStock":"all","order":"-1","labels":[]} 
+16.3.2023, 23:32:17 - INFO - Req was made 
+16.3.2023, 23:32:17 - DEBUG - Getting Toys | {"name":"h","inStock":"all","order":"-1","labels":[]} 
+16.3.2023, 23:32:18 - DEBUG - Getting Toys | {"name":"hc","inStock":"all","order":"-1","labels":[]} 
+16.3.2023, 23:32:18 - INFO - Req was made 
+16.3.2023, 23:32:18 - INFO - Req was made 
+16.3.2023, 23:32:18 - DEBUG - Getting Toys | {"name":"hce","inStock":"all","order":"-1","labels":[]} 
+16.3.2023, 23:32:18 - INFO - Req was made 
+16.3.2023, 23:32:18 - DEBUG - Getting Toys | {"name":"hced","inStock":"all","order":"-1","labels":[]} 
+16.3.2023, 23:32:19 - DEBUG - Getting Toys | {"name":"hce","inStock":"all","order":"-1","labels":[]} 
+16.3.2023, 23:32:19 - INFO - Req was made 
+16.3.2023, 23:32:19 - DEBUG - Getting Toys | {"name":"hc","inStock":"all","order":"-1","labels":[]} 
+16.3.2023, 23:32:19 - INFO - Req was made 
+16.3.2023, 23:32:19 - INFO - Req was made 
+16.3.2023, 23:32:19 - DEBUG - Getting Toys | {"name":"h","inStock":"all","order":"-1","labels":[]} 
+16.3.2023, 23:32:20 - INFO - Req was made 
+16.3.2023, 23:32:20 - DEBUG - Getting Toys | {"name":"","inStock":"all","order":"-1","labels":[]} 
+16.3.2023, 23:32:20 - DEBUG - Getting Toys | {"name":"k","inStock":"all","order":"-1","labels":[]} 
+16.3.2023, 23:32:20 - INFO - Req was made 
+16.3.2023, 23:32:21 - DEBUG - Getting Toys | {"name":"ka","inStock":"all","order":"-1","labels":[]} 
+16.3.2023, 23:32:21 - INFO - Req was made 
+16.3.2023, 23:32:21 - DEBUG - Getting Toys | {"name":"kap","inStock":"all","order":"-1","labels":[]} 
+16.3.2023, 23:32:21 - INFO - Req was made 
+16.3.2023, 23:32:21 - INFO - Req was made 
+16.3.2023, 23:32:21 - DEBUG - Getting Toys | {"name":"ka","inStock":"all","order":"-1","labels":[]} 
+16.3.2023, 23:32:21 - INFO - Req was made 
+16.3.2023, 23:32:21 - DEBUG - Getting Toys | {"name":"k","inStock":"all","order":"-1","labels":[]} 
+16.3.2023, 23:32:21 - INFO - Req was made 
+16.3.2023, 23:32:21 - DEBUG - Getting Toys | {"name":"","inStock":"all","order":"-1","labels":[]} 
+16.3.2023, 23:32:24 - INFO - Req was made 
+16.3.2023, 23:32:24 - DEBUG - Getting Toys | {"name":"","inStock":"true","order":"-1","labels":[]} 
+16.3.2023, 23:32:26 - INFO - Req was made 
+16.3.2023, 23:32:26 - DEBUG - Getting Toys | {"name":"","inStock":"false","order":"-1","labels":[]} 
+16.3.2023, 23:32:28 - INFO - Req was made 
+16.3.2023, 23:32:28 - DEBUG - Getting Toys | {"name":"","inStock":"all","order":"-1","labels":[]} 
+16.3.2023, 23:32:31 - INFO - Req was made 
+16.3.2023, 23:32:31 - DEBUG - Getting Toys | {"name":"","inStock":"true","order":"-1","labels":[]} 
+16.3.2023, 23:34:35 - INFO - Hi 
+16.3.2023, 23:34:35 - INFO - Server is running on port: 3030 
+16.3.2023, 23:34:36 - DEBUG - Getting Toys | {"name":"","inStock":"all","order":"-1","labels":[]} 
+16.3.2023, 23:34:36 - INFO - Req was made 
+16.3.2023, 23:34:39 - INFO - Req was made 
+16.3.2023, 23:34:39 - DEBUG - Getting Toys | {"name":"","inStock":"true","order":"-1","labels":[]} 
+16.3.2023, 23:34:43 - INFO - Req was made 
+16.3.2023, 23:34:43 - DEBUG - Getting Toys | {"name":"","inStock":"false","order":"-1","labels":[]} 
+16.3.2023, 23:34:58 - INFO - Req was made 
+16.3.2023, 23:34:58 - DEBUG - Getting Toys | {"name":"","inStock":"false","order":"-1","labels":["Box game"]} 
+16.3.2023, 23:34:59 - DEBUG - Getting Toys | {"name":"","inStock":"false","order":"-1","labels":["Box game","Baby"]} 
+16.3.2023, 23:34:59 - INFO - Req was made 
+16.3.2023, 23:35:00 - INFO - Req was made 
+16.3.2023, 23:35:00 - DEBUG - Getting Toys | {"name":"","inStock":"false","order":"-1","labels":["Baby"]} 
+16.3.2023, 23:35:01 - INFO - Req was made 
+16.3.2023, 23:35:01 - DEBUG - Getting Toys | {"name":"","inStock":"false","order":"-1","labels":[]} 
+16.3.2023, 23:35:08 - INFO - Hi 
+16.3.2023, 23:35:08 - INFO - Server is running on port: 3030 
+16.3.2023, 23:35:09 - DEBUG - Getting Toys | {"name":"","inStock":"all","order":"-1","labels":[]} 
+16.3.2023, 23:35:09 - INFO - Req was made 
+16.3.2023, 23:35:15 - INFO - Req was made 
+16.3.2023, 23:35:15 - DEBUG - Getting Toys | {"name":"","inStock":"all","order":"-1","labels":["Outdoor"]} 
+16.3.2023, 23:35:17 - INFO - Req was made 
+16.3.2023, 23:35:17 - DEBUG - Getting Toys | {"name":"","inStock":"all","order":"-1","labels":[]} 
+16.3.2023, 23:35:18 - INFO - Req was made 
+16.3.2023, 23:35:18 - DEBUG - Getting Toys | {"name":"","inStock":"all","order":"-1","labels":["Outdoor"]} 
+16.3.2023, 23:35:20 - INFO - Req was made 
+16.3.2023, 23:35:20 - DEBUG - Getting Toys | {"name":"","inStock":"all","order":"-1","labels":["Outdoor","Baby"]} 
+16.3.2023, 23:38:17 - DEBUG - Getting Toys | {"name":"","inStock":"all","order":"-1","labels":[]} 
+16.3.2023, 23:38:17 - INFO - Req was made 
+16.3.2023, 23:46:10 - INFO - Hi 
+16.3.2023, 23:46:10 - INFO - Server is running on port: 3030 
+16.3.2023, 23:46:35 - INFO - Hi 
+16.3.2023, 23:46:35 - INFO - Server is running on port: 3030 
+16.3.2023, 23:46:39 - INFO - Hi 
+16.3.2023, 23:46:39 - INFO - Server is running on port: 3030 
+16.3.2023, 23:46:40 - DEBUG - Getting Toys | {"name":"","inStock":"all","order":"-1","labels":[]} 
+16.3.2023, 23:46:40 - INFO - Req was made 
+16.3.2023, 23:46:55 - INFO - Req was made 
+16.3.2023, 23:46:55 - DEBUG - Getting Toys | {"name":"","inStock":"all","order":"1","labels":[]} 
+16.3.2023, 23:47:00 - INFO - Req was made 
+16.3.2023, 23:47:00 - DEBUG - Getting Toys | {"name":"","inStock":"all","order":"-1","labels":[]} 
+16.3.2023, 23:47:04 - INFO - Req was made 
+16.3.2023, 23:47:04 - DEBUG - Getting Toys | {"name":"","inStock":"all","order":"priceAsc","labels":[]} 
+16.3.2023, 23:47:08 - INFO - Req was made 
+16.3.2023, 23:47:08 - DEBUG - Getting Toys | {"name":"","inStock":"all","order":"priceDesc","labels":[]} 
+16.3.2023, 23:47:30 - INFO - Server is running on port: 3030 
+16.3.2023, 23:47:30 - INFO - Hi 
+16.3.2023, 23:47:33 - INFO - Req was made 
+16.3.2023, 23:47:33 - DEBUG - Getting Toys | {"name":"","inStock":"all","order":"-1","labels":[]} 
+16.3.2023, 23:47:33 - ERROR - cannot find toys | MongoError: Illegal key in $sort specification: createdAt: "-1" 
+16.3.2023, 23:47:33 - ERROR - Failed to get toys | MongoError: Illegal key in $sort specification: createdAt: "-1" 
+16.3.2023, 23:47:53 - INFO - Hi 
+16.3.2023, 23:47:53 - INFO - Server is running on port: 3030 
+16.3.2023, 23:47:54 - INFO - Req was made 
+16.3.2023, 23:47:54 - DEBUG - Getting Toys | {"name":"","inStock":"all","order":"-1","labels":[]} 
+16.3.2023, 23:48:00 - INFO - Req was made 
+16.3.2023, 23:48:00 - DEBUG - Getting Toys | {"name":"","inStock":"all","order":"1","labels":[]} 
+16.3.2023, 23:48:03 - INFO - Req was made 
+16.3.2023, 23:48:03 - DEBUG - Getting Toys | {"name":"","inStock":"all","order":"priceAsc","labels":[]} 
+16.3.2023, 23:48:08 - INFO - Req was made 
+16.3.2023, 23:48:08 - DEBUG - Getting Toys | {"name":"","inStock":"all","order":"priceDesc","labels":[]} 
+16.3.2023, 23:48:59 - DEBUG - Getting Toys | {"name":"","inStock":"all","order":"-1","labels":[]} 
+16.3.2023, 23:48:59 - INFO - Req was made 
+16.3.2023, 23:49:05 - INFO - Req was made 
+16.3.2023, 23:49:05 - DEBUG - Getting Toys | {"name":"","inStock":"all","order":"priceDesc","labels":[]} 
+16.3.2023, 23:49:09 - INFO - Req was made 
+16.3.2023, 23:49:09 - DEBUG - Getting Toys | {"name":"","inStock":"all","order":"priceAsc","labels":[]} 
+16.3.2023, 23:49:35 - INFO - Req was made 
+16.3.2023, 23:49:35 - DEBUG - Getting Toys | {"name":"","inStock":"all","order":"-1","labels":[]} 
+16.3.2023, 23:52:29 - INFO - Server is running on port: 3030 
+16.3.2023, 23:52:29 - INFO - Hi 
+16.3.2023, 23:53:04 - INFO - Hi 
+16.3.2023, 23:53:04 - INFO - Server is running on port: 3030 
+16.3.2023, 23:53:15 - INFO - Server is running on port: 3030 
+16.3.2023, 23:53:15 - INFO - Hi 
+16.3.2023, 23:53:54 - INFO - Req was made 
+16.3.2023, 23:53:54 - DEBUG - Getting Toys | {"name":"","inStock":"all","order":"-1","labels":[]} 
+16.3.2023, 23:56:54 - INFO - Req was made 
+16.3.2023, 23:56:54 - DEBUG - Getting Toys | {"name":"","inStock":"all","order":"-1","labels":[]} 
+16.3.2023, 23:57:47 - INFO - Req was made 
+16.3.2023, 23:57:47 - DEBUG - Getting Toys | {"name":"","inStock":"all","order":"-1","labels":[]} 
+17.3.2023, 2:20:10 - DEBUG - Getting Toys | {"name":"","inStock":"all","order":"-1","labels":[]} 
+17.3.2023, 2:20:10 - INFO - Req was made 
+19.3.2023, 1:11:46 - INFO - Req was made 
+19.3.2023, 1:11:46 - DEBUG - Getting Toys | {"name":"","inStock":"all","order":"-1","labels":[]} 
+19.3.2023, 1:18:32 - INFO - Req was made 
+19.3.2023, 1:18:32 - DEBUG - Getting Toys | {"name":"","inStock":"all","order":"-1","labels":[]} 
+19.3.2023, 1:21:52 - INFO - Req was made 
+19.3.2023, 1:21:52 - DEBUG - Getting Toys | {"name":"","inStock":"all","order":"-1","labels":[]} 
+19.3.2023, 15:29:06 - INFO - Hi 
+19.3.2023, 15:29:06 - INFO - Server is running on port: 3030 
+19.3.2023, 15:29:08 - INFO - Hi 
+19.3.2023, 15:29:08 - INFO - Server is running on port: 3030 
+19.3.2023, 16:44:55 - DEBUG - Getting Toys | {"name":"","inStock":"all","order":"-1","labels":[]} 
+19.3.2023, 16:44:55 - INFO - Req was made 
+19.3.2023, 16:45:05 - DEBUG - auth.service - login with username: clem 
+19.3.2023, 16:45:05 - ERROR - Failed to Login Invalid username or password 
+19.3.2023, 16:45:06 - INFO - Req was made 
+19.3.2023, 16:45:06 - DEBUG - Getting Toys | {"name":"","inStock":"all","order":"-1","labels":[]} 
+19.3.2023, 17:12:17 - INFO - Req was made 
+19.3.2023, 17:12:17 - DEBUG - Getting Toys | {"name":"","inStock":"all","order":"-1","labels":[]} 
+19.3.2023, 17:13:29 - INFO - Req was made 
+19.3.2023, 17:13:29 - DEBUG - Getting Toys | {"name":"","inStock":"all","order":"-1","labels":[]} 
+19.3.2023, 17:14:03 - INFO - Req was made 
+19.3.2023, 17:14:03 - DEBUG - Getting Toys | {"name":"","inStock":"all","order":"-1","labels":[]} 
+19.3.2023, 17:14:34 - INFO - Req was made 
+19.3.2023, 17:14:34 - DEBUG - Getting Toys | {"name":"","inStock":"all","order":"-1","labels":[]} 
+19.3.2023, 17:14:48 - DEBUG - auth.service - signup with username: clema, fullname: Clementine Amar 
+19.3.2023, 17:14:48 - DEBUG - auth.route - new account created: {"username":"clema","password":"$2b$10$fT9zDSIjNY.o/c6UMiQhmevOmAO9PPl1T9IQCE2HgarA8XMiBQKdq","fullname":"Clementine Amar","score":0,"_id":"641726e8c0813e358c505fe8"} 
+19.3.2023, 17:14:48 - DEBUG - auth.service - login with username: clema 
+19.3.2023, 17:14:48 - INFO - User login:  | {"_id":"641726e8c0813e358c505fe8","username":"clema","fullname":"Clementine Amar","score":0} 
+19.3.2023, 17:15:28 - DEBUG - Getting Toys | {"name":"","inStock":"all","order":"-1","labels":[]} 
+19.3.2023, 17:15:28 - INFO - Req was made 
+19.3.2023, 17:15:35 - INFO - Req was made 
+19.3.2023, 17:15:35 - DEBUG - Getting Toys | {"name":"","inStock":"all","order":"-1","labels":[]} 
+19.3.2023, 17:15:55 - DEBUG - auth.service - signup with username: clema, fullname: Clementine Amar 
+19.3.2023, 17:15:55 - ERROR - cannot insert user | Error: Username taken 
+19.3.2023, 17:15:55 - ERROR - Failed to signup Error: Username taken 
+19.3.2023, 17:16:43 - DEBUG - Getting Toys | {"name":"","inStock":"all","order":"-1","labels":[]} 
+19.3.2023, 17:16:43 - INFO - Req was made 
+19.3.2023, 17:16:57 - DEBUG - auth.service - signup with username: clema, fullname: undefined 
+19.3.2023, 17:16:57 - ERROR - Failed to signup fullname, username and password are required! 
+19.3.2023, 17:19:02 - INFO - Req was made 
+19.3.2023, 17:19:02 - DEBUG - Getting Toys | {"name":"","inStock":"all","order":"-1","labels":[]} 
+19.3.2023, 17:19:13 - DEBUG - auth.service - signup with username: clema, fullname: Clementine Amar 
+19.3.2023, 17:19:13 - ERROR - Failed to signup Error: Username taken 
+19.3.2023, 17:19:13 - ERROR - cannot insert user | Error: Username taken 
+19.3.2023, 17:22:01 - DEBUG - auth.service - login with username: clema 
+19.3.2023, 17:22:01 - INFO - User login:  | {"_id":"641726e8c0813e358c505fe8","username":"clema","fullname":"Clementine Amar","score":0} 
+19.3.2023, 17:22:12 - DEBUG - auth.service - login with username: clema 
+19.3.2023, 17:22:12 - INFO - User login:  | {"_id":"641726e8c0813e358c505fe8","username":"clema","fullname":"Clementine Amar","score":0} 
+19.3.2023, 17:22:32 - DEBUG - Getting Toys | {"name":"","inStock":"all","order":"-1","labels":[]} 
+19.3.2023, 17:22:32 - INFO - Req was made 
+19.3.2023, 17:24:42 - DEBUG - Getting Toys | {"name":"","inStock":"all","order":"-1","labels":[]} 
+19.3.2023, 17:24:42 - INFO - Req was made 
+19.3.2023, 17:24:44 - INFO - Req was made 
+19.3.2023, 17:24:44 - DEBUG - Getting Toys | {"name":"","inStock":"all","order":"-1","labels":[]} 
+19.3.2023, 17:24:52 - DEBUG - auth.service - login with username: clema 
+19.3.2023, 17:24:52 - INFO - User login:  | {"_id":"641726e8c0813e358c505fe8","username":"clema","fullname":"Clementine Amar","score":0} 
+19.3.2023, 17:25:54 - DEBUG - Getting Toys | {"name":"","inStock":"all","order":"-1","labels":[]} 
+19.3.2023, 17:25:54 - INFO - Req was made 
+19.3.2023, 17:25:58 - INFO - Req was made 
+19.3.2023, 17:25:58 - DEBUG - Getting Toys | {"name":"","inStock":"all","order":"-1","labels":[]} 
+19.3.2023, 17:26:05 - DEBUG - auth.service - login with username: clema 
+19.3.2023, 17:26:05 - INFO - User login:  | {"_id":"641726e8c0813e358c505fe8","username":"clema","fullname":"Clementine Amar","score":0} 
+19.3.2023, 17:27:01 - DEBUG - Getting Toys | {"name":"","inStock":"all","order":"-1","labels":[]} 
+19.3.2023, 17:27:01 - INFO - Req was made 
+19.3.2023, 17:27:19 - DEBUG - auth.service - login with username: clema 
+19.3.2023, 17:27:19 - INFO - User login:  | {"_id":"641726e8c0813e358c505fe8","username":"clema","fullname":"Clementine Amar","score":0} 
+19.3.2023, 17:27:41 - INFO - Req was made 
+19.3.2023, 17:27:41 - DEBUG - Getting Toys | {"name":"","inStock":"all","order":"-1","labels":[]} 
+19.3.2023, 17:27:48 - DEBUG - auth.service - login with username: clema 
+19.3.2023, 17:27:48 - INFO - User login:  | {"_id":"641726e8c0813e358c505fe8","username":"clema","fullname":"Clementine Amar","score":0} 
+19.3.2023, 17:28:11 - INFO - Req was made 
+19.3.2023, 17:28:11 - DEBUG - Getting Toys | {"name":"","inStock":"all","order":"-1","labels":[]} 
+19.3.2023, 17:28:17 - DEBUG - auth.service - login with username: clema 
+19.3.2023, 17:28:17 - INFO - User login:  | {"_id":"641726e8c0813e358c505fe8","username":"clema","fullname":"Clementine Amar","score":0} 
+19.3.2023, 17:32:31 - DEBUG - auth.service - login with username: clema 
+19.3.2023, 17:32:31 - INFO - User login:  | {"_id":"641726e8c0813e358c505fe8","username":"clema","fullname":"Clementine Amar","score":0} 
+19.3.2023, 17:35:55 - DEBUG - auth.service - signup with username: yoyo, fullname: Yossef Amar 
+19.3.2023, 17:35:55 - DEBUG - auth.route - new account created: {"username":"yoyo","password":"$2b$10$7qoFaPFYIAs5INUFIBi1Ee5QxcEO1c9zwzovTtpfyiYQi94CmzIfu","fullname":"Yossef Amar","score":0,"_id":"64172bdbc0813e358c505fe9"} 
+19.3.2023, 17:35:55 - DEBUG - auth.service - login with username: yoyo 
+19.3.2023, 17:35:55 - INFO - User login:  | {"_id":"64172bdbc0813e358c505fe9","username":"yoyo","fullname":"Yossef Amar","score":0} 
+19.3.2023, 17:36:02 - DEBUG - Getting Toys | {"name":"","inStock":"all","order":"-1","labels":[]} 
+19.3.2023, 17:36:02 - INFO - Req was made 
+19.3.2023, 17:37:01 - DEBUG - auth.service - signup with username: , fullname: Yossef Amar 
+19.3.2023, 17:37:01 - ERROR - Failed to signup fullname, username and password are required! 
+19.3.2023, 17:37:07 - DEBUG - auth.service - signup with username: yoyo, fullname: Yossef Amar 
+19.3.2023, 17:37:07 - ERROR - cannot insert user | Error: Username taken 
+19.3.2023, 17:37:07 - ERROR - Failed to signup Error: Username taken 
+19.3.2023, 17:38:11 - DEBUG - auth.service - login with username: yoyo 
+19.3.2023, 17:38:11 - INFO - User login:  | {"_id":"64172bdbc0813e358c505fe9","username":"yoyo","fullname":"Yossef Amar","score":0} 

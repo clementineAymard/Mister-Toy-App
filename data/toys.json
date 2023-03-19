@@ -1,5 +1,18 @@
 [
   {
+    "_id": "6TSLk6",
+    "name": "Talking doll",
+    "price": 123,
+    "labels": [
+      "Doll",
+      "Battery Powered",
+      "Baby"
+    ],
+    "createdAt": 1678730000000,
+    "inStock": false,
+    "imageUrl": "../../public/talking-doll.jpg"
+  },
+  {
     "_id": "rvGqQ",
     "name": "Playmobile House",
     "price": "130",
